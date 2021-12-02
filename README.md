@@ -26,9 +26,9 @@ General trends:
 ### Feature Selection Methodology
 With general insights into the features relevant to our Classification problem, we sought to formalize the important features for each task.  
 * Feature selection methods: 
-  * Fit DecisionTree Classifier to assess feature “importance scores” for [Pharmacy Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/feature_selection/Feature%20selection%20Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/feature_selection/Feature%20selection%20PAs.ipynb). 
+  * Fit DecisionTree Classifier to assess feature “importance scores” for [Pharmacy Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Feature_Selection_for_Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%202%20for%20ePAs/Feature_Selection_for_ePAs.ipynb). 
   * Correlation plot of features with target variable 
-  * Train and test model adding features in succession to test for improvement. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/ellongley/notebooks/feature_selection/Feature%20Selection%20-%20ePA%20Prediction.ipynb)
+  * Train and test model adding features in succession to test for improvement. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%202%20for%20ePAs/Feature_Selection_for_Claims_and_ePA_Prediction.ipynb)
 
 * Feature Selection Results
   1. Relevant features for Claim success predictor: 
