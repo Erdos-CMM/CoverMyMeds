@@ -9,11 +9,11 @@ This Github repository presents a company-sponsored project, with data provided 
 * [Miriam Sierra](https://github.com/Erdos-CMM/CoverMyMeds/tree/miriam)
 
 ## Motivation
-When a doctor prescribes a therapy to a patient, they send the prescription to a pharmacy. The pharmacy, when going to fill the prescription, runs a claim against the patient’s insurance to see if their insurance will cover the therapy as prescribed. Payers may not cover medications or dosages and may reject the claim. If a claim is rejected, a prior authorization (PA) can be started to prevent prescription abandonment and ensure a patient gets the therapy their provider thinks would work best for them. 
+When a doctor prescribes a therapy to a patient, they send the prescription to a pharmacy. Patients filling their prescription at a pharmacy require an insurance check to ensure their therapy is covered by their insurance. Payers may not cover medications or dosages and may reject the claim. If a claim is rejected, a prior authorization (PA) can be started to prevent prescription abandonment and ensure a patient gets the therapy their provider thinks would work best for them. 
 
 ## Proposed Solution 
 A classification algorithm tool can tackle these challenges by:
-1. Predicting patient pharmacy claim success. Build a classifier designed to predict claim success can prevent patients from going to the pharmacy, only to leave empty-handed.
+1. Predicting patient pharmacy claim success. We built a classifier designed to predict claim success to inform patients if their insurance will likely cover their therapy.
 2. Predicting patient electronic PA (ePA) success. Create a classifier designed to predict ePA success can prevent patients from waiting on a payer’s decision, only to switch to a different medication.  
 
 ## The process
@@ -31,19 +31,13 @@ With general insights into the features relevant to our Classification problem, 
   * Train and test model adding features in succession to test for improvement. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/ellongley/notebooks/feature_selection/Feature%20Selection%20-%20ePA%20Prediction.ipynb)
 
 * Feature Selection Results
-  1. Claim success predictor the most relevant variables are: 
+  1. Relevant features for Claim success predictor: 
       * Bin
       * Drug Type 
-  2. Claim sucess predictor, the least relevant variables are: 
-      * Year 
-      * Day and calendar information
-  3. ePA success predictor, the most relevant variables are:
+  2. Relevant features for ePA success predictor:
       * Reject Code
       * Contraindication
       * Drug Type
-  5. ePA success predictor, the least relevant variables are:
-      * Year
-      * Day and calendar information
 
 ### Metric selection rationale
 *Classifier #1 Claim Success Predictor*
