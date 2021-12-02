@@ -20,8 +20,8 @@ A classification algorithm tool can tackle these challenges by:
 ### Exploratory Data Analysis
 General trends: 
 * Drug C had slightly higher claim approval rate, drug B has the lowest. 
-* Bin 999001 has the highest claim approval Rate, 417380 and 417614 had the lowest. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/ibrahim/notebooks/data_visulization.ipynb)
-* Reject code 75 more likely to have their ePA approved, and reject code 70 least likely. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/ellongley/notebooks/CoverMyMeds%20Trends.ipynb)
+* Bin 999001 has the highest claim approval Rate, 417380 and 417614 had the lowest. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Data%20Visualization%20%26%20Trends/Data_Visualization.ipynb)
+* Reject code 75 more likely to have their ePA approved, and reject code 70 least likely. [See more here](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Data%20Visualization%20%26%20Trends/Data_Trends.ipynb)
 
 ### Feature Selection Methodology
 With general insights into the features relevant to our Classification problem, we sought to formalize the important features for each task.  
