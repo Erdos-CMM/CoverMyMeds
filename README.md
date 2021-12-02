@@ -75,7 +75,7 @@ Providing solutions to ease the path for patients from provider to care is a dif
 * Additionally, our models identify with high success an ePA that will help to ensure a patient receives the medication they need (93.2%). 
 
 ## Acknowledgements
-We thank the [Erdos Institute]( https://www.erdosinstitute.org/) and [CoverMyMeds]( https://www.covermymeds.com/main/) for all the support in the relization of this project. 
+We thank the [Erdos Institute]( https://www.erdosinstitute.org/) and [CoverMyMeds]( https://www.covermymeds.com/main/) for all their support in the realization of the project. 
 
 -----
 More information about this project can be found in [Executive Summary](https://docs.google.com/document/d/1FwrmBEhBAQWARjeUt4RZFoarkcXRJpPkcrNds7StoyU/edit) and [Video presentation](https://drive.google.com/file/d/1v1xNRlQtk9EyGTjWGuJ4GD-V1L0_eG3i/view?usp=sharing).
