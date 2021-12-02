@@ -53,10 +53,10 @@ For each problem statement we tested different machine-learning classifiers and 
 * [Logistic Regression](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Logistic_Regression_for_Claims.ipynb)
 * [K-nearest neighbors](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/KNN_for_Claims.ipynb)
 * [Random Forest](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Random_forest_for_Claims.ipynb)
-* Stochastic Gradient Descent for [Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/SGD-Classifier_for_Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/SGD-Classifier%20for%20PAs_1.ipynb)
+* Stochastic Gradient Descent for [Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/SGD-Classifier_for_Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%202%20for%20ePAs/SGD-Classifier_for_ePAs.ipynb)
 * Naive Bayes
-* [XGBoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/shreejit/Hyperparameter_Tuning_for_XGBoost_for_claims_with_CV.ipynb) 
-* [ADABoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/Tuning%20Adaboost%20with%20Decision%20Tree.ipynb)
+* [XGBoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Hyperparameter_Tuning_for_XGBoost_for_Claims_with_CV.ipynb) 
+* [ADABoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%202%20for%20ePAs/Tuning_Adaboost_with_Decision_Tree_for_ePAs.ipynb)
 
 ## Results 
 * For Classifier #1 (claims approval) tuning of hyperparameters of XGBoost gave us the the best metrics.
