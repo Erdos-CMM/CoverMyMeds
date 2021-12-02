@@ -50,10 +50,10 @@ The goal of this classifier is to predict whether an ePA will be successful.  If
 
 ### Model Selection
 For each problem statement we tested different machine-learning classifiers and recorded the metric performance, keeping in mind their generalization to random selections of the training data. 
-* [Logistic Regression](https://github.com/Erdos-CMM/CoverMyMeds/blob/shreejit/Logistic.ipynb)
-* [K-nearest neighbors](https://github.com/Erdos-CMM/CoverMyMeds/blob/shreejit/KNN.ipynb)
-* [Random Forest](https://github.com/Erdos-CMM/CoverMyMeds/blob/shreejit/Random_forest.ipynb)
-* Stochastic Gradient Descent for [Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/SGD-Classifier%20for%20Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/SGD-Classifier%20for%20PAs_1.ipynb)
+* [Logistic Regression](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Logistic_Regression_for_Claims.ipynb)
+* [K-nearest neighbors](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/KNN_for_Claims.ipynb)
+* [Random Forest](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/Random_forest_for_Claims.ipynb)
+* Stochastic Gradient Descent for [Claims](https://github.com/Erdos-CMM/CoverMyMeds/blob/main/Classifier%201%20for%20Claims/SGD-Classifier_for_Claims.ipynb) and [ePA](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/SGD-Classifier%20for%20PAs_1.ipynb)
 * Naive Bayes
 * [XGBoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/shreejit/Hyperparameter_Tuning_for_XGBoost_for_claims_with_CV.ipynb) 
 * [ADABoost](https://github.com/Erdos-CMM/CoverMyMeds/blob/miriam/Classification%20Methods%20Exploration/Tuning%20Adaboost%20with%20Decision%20Tree.ipynb)
